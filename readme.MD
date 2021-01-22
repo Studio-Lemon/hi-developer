@@ -8,7 +8,7 @@ Hier komt een verhaal.
 
 ## Jij bent
 
-De developer vanuit een ontwerp uit Sketch/Marvel/XD mobile-first kan omzetten naar herbruikbareHTML/SCSS/JS modules en zijn weg weet in het moderne development landschap. We verwachten geen full-stack experience van je, maar ervaring met veel van de onderstaande tooling of frameworks is zeker een pluspunt.
+Hier komt een verhaal.
 
 ## Vereisten
 
