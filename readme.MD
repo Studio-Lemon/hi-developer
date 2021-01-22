@@ -1,4 +1,4 @@
-# Ha developer,
+# Introductie
 
 Bij Studio Lemon ontwikkelen wij websites op basis van een bibliotheek aan slimme modules, aangevuld met maatwerk. Dat doen we voor directe opdrachtgevers maar ook als technisch- en UX-partner voor creatieve bureaus. We ontwikkelen op basis van WordPress en andere open source technieken, zoals PHP, JavaScript en HTML5/CSS.
 
