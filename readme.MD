@@ -74,9 +74,6 @@ Om databases tussen onze omgevingen gesynchroniseerd te houden werken we met Mig
 **WP Rocket**
 Caching laag bovenop WordPress.
 
-**Timber**
-Plugin die praat met onze TWIG layer.
-
 ## Management van Plugins & WordPress / Composer
 
 Dat doen we met Composer. Elke root folder van een WordPress project heeft een composer.json bestand. Met de command `Composer install` worden alle plugins en WordPress zelf gedownload naar de juiste folders.
@@ -85,7 +82,7 @@ Dat doen we met Composer. Elke root folder van een WordPress project heeft een c
 
 Als boilerplate voor ieder project gebruiken wij een minimum thema waar de ondersteuning zit ingebakken voor Twig en een folderstructuur heeft waar we theme partials, components en layouts kunnen plaatsen.
 
-### Timber
+### Twig en Timber
 
 Om een MVC model aan te houden in WordPress scheiden we de View laag van de controller laag met de [TWIG template engine](https://twig.symfony.com/). Twig zorgt ervoor dat je view bestanden stukken beter beheersbaar worden. Een voorbeeld:
 
@@ -103,7 +100,7 @@ $url = wp_get_attachment_url($thumb_id);
 <img  src="{{post.thumbnail.src}}"  alt="Thumbnail for {{ post.title }}"  />
 ```
 
-Timber is de plugin die wij gebruiken om TWIG direct te gebruiken binnen WordPress. Het zorgt ervoor dat WordPress loops en bijvoorbeeld thumbnails zonder enige tussenkomst aangesproken kunnen worden binnen de twig files.
+Timber is de library die wij gebruiken om TWIG direct te gebruiken binnen WordPress. Het zorgt ervoor dat WordPress loops en bijvoorbeeld thumbnails zonder enige tussenkomst aangesproken kunnen worden binnen de twig files.
 Documentatie over [Timber vind je hier.](https://timber.github.io/docs/)
 
 ### SCSS
@@ -133,5 +130,3 @@ Webpack gebruiken we voor het compilen, prefixen, minifien van JS en SCSS en het
 Ben jij die flexibele developer die wij zoeken? Ook al kan je misschien niet met alle tools overweg, horen we het graag van je als je de uitdaging ziet zitten. We kunnen je altijd tools uitleggen en je helpen te starten met je eerste project, maar enige basiskennis van moderne webdevelopment is zeer fijn.
 
 Bij vragen, neem gerust contact met ons op.
-
-<!-- @import "[TOC]" {cmd="toc" depthFrom=1 depthTo=6 orderedList=false} -->
